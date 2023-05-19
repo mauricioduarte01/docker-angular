@@ -1,0 +1,6 @@
+docker-compose build
+
+docker-compose run --rm app bash
+
+cd ..
+npx -p @angular/cli ng new app --strict=true
