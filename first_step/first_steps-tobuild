@@ -4,3 +4,6 @@ docker-compose run --rm app bash
 
 cd ..
 npx -p @angular/cli ng new app --strict=true
+
+docker cp 9a5ffef10c96:/home/node/app/node_modules .
+
